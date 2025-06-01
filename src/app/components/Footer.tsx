@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white pt-10 pb-6">
+    <footer className="bg-gray-800 text-white p-5">
       <div className="container flex justify-between">
         <div className="w-1/4">
           <h4 className="text-xl font-bold mb-4">Jobringer</h4>

@@ -4,12 +4,20 @@ export interface Job {
   company: string;
   location: string;
   type: string;
+  employmentType: string;
+  experienceLevel: string;
   posted: string;
   salary: string;
+  description: string;
+  requirements: string[];
+  benefits: string[];
+  companyLogo?: string;
 }
 
 export interface Filters {
-  search: string;
-  location: string;
-  fullTime: boolean;
+  location?: string;
+  experienceLevel?: string;
+  jobType?: string;
+  employmentType?: string;
+  datePosted?: string;
 }
