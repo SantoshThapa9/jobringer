@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
@@ -7,49 +8,49 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
                 Jobringer
               </span>
-            </a>
+            </Link>
           </div>
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a
+            <Link
               href="/"
               className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-150"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               href="/jobs"
               className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-150"
             >
               Jobs
-            </a>
-            <a
+            </Link>
+            <Link
               href="/companies"
               className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-150"
             >
               Companies
-            </a>
+            </Link>
           </nav>
 
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <a
+            <Link
               href="/login"
               className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-150"
             >
               Sign In
-            </a>
-            <a
+            </Link>
+            <Link
               href="/register"
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-150"
             >
               Post a Job
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}

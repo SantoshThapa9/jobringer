@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
@@ -15,19 +16,19 @@ const Footer: React.FC = () => {
           <h4 className="text-lg font-semibold mb-3">For Job Seekers</h4>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Browse Jobs
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Career Resources
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Resume Builder
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -36,19 +37,19 @@ const Footer: React.FC = () => {
           <h4 className="text-lg font-semibold mb-3">For Employers</h4>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Post a Job
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Recruiting Solutions
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
