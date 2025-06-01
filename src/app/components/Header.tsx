@@ -20,7 +20,7 @@ const Header: React.FC = () => {
                 height={45}
                 src="/logonew.svg"
                 alt="Logo"
-                className="h-auto"
+                priority
               />
             </Link>
           </div>
@@ -185,7 +185,7 @@ const Header: React.FC = () => {
                 height={32}
                 src="/logonew.svg"
                 alt="Logo"
-                className="h-auto"
+                priority
               />
             </div>
 
