@@ -2,6 +2,16 @@
   "name": "santosh-jobringer",
   "version": "0.1.0",
   "private": true,
+  "description": "Jobringer is a modern job board platform developed by Santosh Thapa using Next.js, TypeScript, and Tailwind CSS. Discover jobs, connect talent, and explore opportunities worldwide.",
+  "author": {
+    "name": "Santosh Thapa",
+    "email": "st8493510@gmail.com",
+    "url": "https://santosh-gamma.vercel.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SantoshThapa9/jobringer"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
